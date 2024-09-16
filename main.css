@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: url("images/background.jpeg") repeat fixed top;
+}#container {
+    width: 800px;
+    background-color:lavenderblush;
+    margin: 0 auto;
+}
+nav {
+    width: 240px;
+    height: 200px;
+    background-color: rgba(177,133,157,1.00);
+	border-radius: 25px;
+    float: left;
+	margin: 0px 0px 0px 10px;
+	padding: 10px; 
+	border: solid;	
+}
+
+article {
+    width: 470px;
+    background-color: rgba(165,138,139,1.00);
+	border-radius: 25px;
+    float: left;
+    margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	border: solid;
+}
+footer {
+    clear: both;
+}
+header > h1 {text-align: center;}
